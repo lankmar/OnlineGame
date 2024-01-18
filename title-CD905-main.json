@@ -1,0 +1,184 @@
+{
+  "CatalogVersion": "main",
+  "Catalog": [
+    {
+      "ItemId": "iron_sword",
+      "ItemClass": "sword",
+      "CatalogVersion": "main",
+      "DisplayName": "Iron sword",
+      "Description": "A simple sword made by a crooked-armed village blacksmith",
+      "VirtualCurrencyPrices": {
+        "CC": 100
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "\"sword",
+        "weapon\""
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": true,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "steel_sword",
+      "ItemClass": "sword",
+      "CatalogVersion": "main",
+      "DisplayName": "Steel sword",
+      "Description": "A sword created by a simple blacksmith and does not break after a couple of blows",
+      "VirtualCurrencyPrices": {
+        "CC": 500
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "\"sword",
+        "weapon\""
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "leather_armor",
+      "ItemClass": "armor",
+      "CatalogVersion": "main",
+      "DisplayName": "Leather armor",
+      "Description": "Leather armor, will protect its owner from the bites of wild animals and blows of angry peasants",
+      "VirtualCurrencyPrices": {
+        "CC": 200
+      },
+      "RealCurrencyPrices": null,
+      "Tags": [
+        "\"armor",
+        "weapon\""
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": true,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "steel_armor",
+      "ItemClass": "armor",
+      "CatalogVersion": "main",
+      "DisplayName": "Steel armor",
+      "Description": "steel armor, will protect inept robbers and increase self-confidence",
+      "VirtualCurrencyPrices": {
+        "CC": 800
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "\"armor",
+        "weapon\""
+      ],
+      "CustomData": "{\"power \":\"1\"}",
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "small_healing_potion",
+      "ItemClass": "potion",
+      "CatalogVersion": "main",
+      "DisplayName": "Small healing potion",
+      "Description": "A bottle with a healing effect will allow you to heal several bruises and scratches",
+      "VirtualCurrencyPrices": {
+        "CC": 10
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "\"potion\""
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": 5,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": true,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "Medium_healing_potion",
+      "ItemClass": "potion",
+      "CatalogVersion": "main",
+      "DisplayName": "Medium healing potion",
+      "Description": "If you get sick or are bitten by a wild animal, drink this potion and you will recover",
+      "VirtualCurrencyPrices": {
+        "CC": 10
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "\"potion\""
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": 5,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": true,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    }
+  ],
+  "DropTables": []
+}
