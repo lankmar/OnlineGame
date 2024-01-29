@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PlyFab.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/06/PhotonLobby.unity
+    guid: c0155a2224f57a04cba6957e6cff84d7
   - enabled: 1
-    path: Assets/Scenes/Lobby.unity
-    guid: b186e733951112b4f9f7aceac2ffe56e
+    path: Assets/06/Game.unity
+    guid: 49fdd67ef049b26488a5cf4e7e69e68c
   m_configObjects: {}
