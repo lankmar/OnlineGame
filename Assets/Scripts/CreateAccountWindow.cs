@@ -25,7 +25,7 @@ public class CreateAccountWindow : AccountDataWindowsBase
     {
         _loadingAccountCanvas.enabled = true;
         PlayFabClientAPI.RegisterPlayFabUser(new RegisterPlayFabUserRequest
-        { 
+        {
             Username = _userName,
             Email = _mail,
             Password = _password

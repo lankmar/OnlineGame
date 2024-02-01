@@ -34,12 +34,46 @@ public class PlayFabLogin : MonoBehaviour
     {
 
         Debug.Log("Congratulations, you made successful API call!");
+        SetUsetData(result.PlayFabId);
     }
+
+    private void SetUsetData(string playFabId)
+    {
+        PlayFabClientAPI.UpdateUserData(new UpdateUserDataRequest
+        { 
+            Data = new System.Collections.Generic.Dictionary<string, string>
+            {
+                {"time_recive_deily_reward", DateTime.UtcNow.ToString()}
+            }
+        },
+        result =>
+        {
+            Debug.Log("SetUserData");
+            GetUserData(playFabId, "time_recive_deily_reward");
+        },
+        OnLoginFailure);
+    }
+
+    private void GetUserData(string playFabId, string keyData)
+    {
+        PlayFabClientAPI.GetUserData(new GetUserDataRequest
+        {
+            PlayFabId = playFabId
+        }, result =>
+        {
+            if (result.Data.ContainsKey(keyData))
+                Debug.Log($"{keyData}: {result.Data[keyData].Value}");
+        },
+        OnLoginFailure);
+    }
+
     private void OnLoginFailure(PlayFabError error)
     {
         var errorMessage = error.GenerateErrorReport();
         Debug.LogError($"Something went wrong: {errorMessage}");
     }
+
+    #region old
 
     //private void Update()
     //{
@@ -61,4 +95,5 @@ public class PlayFabLogin : MonoBehaviour
     //        _button.GetComponent<Graphic>().color = Color.red;
     //    }
     //}
+    #endregion
 }

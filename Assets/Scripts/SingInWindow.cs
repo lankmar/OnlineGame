@@ -21,7 +21,7 @@ public class SingInWindow : AccountDataWindowsBase
     private void SingIn()
     {
         PlayFabClientAPI.LoginWithPlayFab(new LoginWithPlayFabRequest
-        { 
+        {
             Username = _userName,
             Password = _password
         }, result =>

@@ -35,8 +35,6 @@ public class PhotonManager : MonoBehaviourPunCallbacks
         _createRoom.onClick.AddListener(CreateRoom);
         _joinRandomRoom.onClick.AddListener(JoinRandomRoom);
         _joinRoom.onClick.AddListener(JoinRoomButton);
-
-        DontDestroyOnLoad(this.gameObject);
     }
 
 
