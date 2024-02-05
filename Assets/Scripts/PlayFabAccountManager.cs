@@ -10,7 +10,7 @@ using System.Linq;
 public class PlayFabAccountManager : MonoBehaviour
 {
     [SerializeField] private TMP_Text _textLabel;
-    [SerializeField] private TMP_Text _dopInformation;
+    //[SerializeField] private TMP_Text _dopInformation;
 
     [SerializeField] private GameObject _newCharacterCreatePanel;
     [SerializeField] private Button _createCharButton;
@@ -139,7 +139,7 @@ public class PlayFabAccountManager : MonoBehaviour
     private void OnGetAccount(GetAccountInfoResult result)
     {
         _textLabel.text = $"Player id: {result.AccountInfo.PlayFabId}";
-        _dopInformation.text = $"Username: {result.AccountInfo.Username},  Created: {result.AccountInfo.Created}";
+       // _dopInformation.text = $"Username: {result.AccountInfo.Username},  Created: {result.AccountInfo.Created}";
     }
 
     private void OnGetCatalogSuccess(GetCatalogItemsResult result)
